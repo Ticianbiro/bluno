@@ -1,0 +1,138 @@
+{
+  "name": "Máj kolleksön",
+  "version": "1",
+  "items": [
+    {
+      "type": "http",
+      "name": "Új rikveszt",
+      "filename": "Új rikveszt.bru",
+      "seq": 1,
+      "request": {
+        "url": "{{bezurl}}",
+        "method": "GET",
+        "headers": [],
+        "params": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": [],
+          "file": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "docs": "",
+        "auth": {
+          "mode": "inherit"
+        }
+      }
+    },
+    {
+      "type": "folder",
+      "name": "Nyú foldör",
+      "filename": "Nyú foldör",
+      "root": {
+        "meta": {
+          "name": "Nyú foldör"
+        }
+      },
+      "items": [
+        {
+          "type": "http",
+          "name": "nyú rikveszt",
+          "filename": "nyú rikveszt.bru",
+          "seq": 1,
+          "request": {
+            "url": "",
+            "method": "GET",
+            "headers": [],
+            "params": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": [],
+              "file": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "docs": "",
+            "auth": {
+              "mode": "inherit"
+            }
+          }
+        },
+        {
+          "type": "folder",
+          "name": "Nyúvest foldör",
+          "filename": "Nyúvest foldör",
+          "root": {
+            "meta": {
+              "name": "Nyúvest foldör"
+            }
+          },
+          "items": [
+            {
+              "type": "http",
+              "name": "Rikveszt",
+              "filename": "Rikveszt.bru",
+              "seq": 1,
+              "request": {
+                "url": "",
+                "method": "GET",
+                "headers": [],
+                "params": [],
+                "body": {
+                  "mode": "none",
+                  "formUrlEncoded": [],
+                  "multipartForm": [],
+                  "file": []
+                },
+                "script": {},
+                "vars": {},
+                "assertions": [],
+                "tests": "",
+                "docs": "",
+                "auth": {
+                  "mode": "inherit"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "activeEnvironmentUid": "BxabjFRpWesCYtXfGREH9",
+  "environments": [
+    {
+      "variables": [
+        {
+          "name": "bezurl",
+          "value": "",
+          "enabled": true,
+          "secret": true,
+          "type": "text"
+        }
+      ],
+      "name": "Ez kell neked"
+    },
+    {
+      "variables": [],
+      "name": "Invájörment"
+    }
+  ],
+  "brunoConfig": {
+    "version": "1",
+    "name": "Máj kolleksön",
+    "type": "collection",
+    "ignore": [
+      "node_modules",
+      ".git"
+    ],
+    "size": 0.00038051605224609375,
+    "filesCount": 7
+  }
+}
